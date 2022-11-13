@@ -1,28 +1,28 @@
 import Cocoa
+ 
+//var employeee = ["Kunal", "Developer", "Apple"]
+//print("Name: \(employeee[0]")
+//print("Job Title: \(employeee[1])")
+//print("company: \(employeee[2])")
 
-var integerss = Array<Int>()
-integerss.append(45)
-integerss.append(556)
-integerss.append(458)
-print(integerss)
+var employee = ["Name": "Kunal", "Job": "Developer",
+                "Company": "Apple"]
+print(employee["Name", default: "unknown"])
+print(employee["Job", default: "unknown"])
+print(employee["Company", default: "unkown"])
 
-var cities = [String]()
-cities.append("Kota")
-cities.append("Jaipur")
-cities.append("Patna")
-print(cities)
+var schools = [
+    2010: "central academy",
+    2018: "resonance"]
 
-var names = ["kunal", "Kinshu", "Keshav", "kl"]
-print(names.count)
+print(schools[2018, default: "unknown"])
 
-names.remove(at: 3)
-print(names.count)
-print(names)
+var school = [String: Int]()
+school["CA"] = 2010
+school["Reso"] = 2018
+print(school)
 
-names.removeAll()
-print(names.count)
-
-var name = ["excuses", "Desires", "Elephant"]
-print(name.sorted())
-
-print(name.reversed())
+var location = [String: String]()
+location["CA"] = "Baran"
+location["Reso"] = "Kota"
+print(location)
