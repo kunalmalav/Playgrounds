@@ -47,6 +47,6 @@ animalDictionary = [1: AnimalProperty(name: "Cow", category: "Domestic"),
 
 
 //print(employee["Name", default: <#T##String#>])
-print(employeeAge["Pandey", default: 18])
+print(employeeAge["Pandey", default:22])
 print(animalDictionary[4, default: AnimalProperty(name: "Cat", category: "Indoor")])
 
